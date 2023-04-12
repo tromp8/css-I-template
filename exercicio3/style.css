@@ -6,6 +6,10 @@ header{
   
 }
 
+main{
+  font-family: Helvetica;
+}
+
 section{
   float: left;
 /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
@@ -18,6 +22,11 @@ aside{
  /*float é uma propriedade que permite deixar elementos à direita ou à esquerda da tela. Não costuma ser usado. Aqui, é usado apenas para ilustrar diferenças.*/
   padding: 20px;
   width: 340px;
+}
+
+section, aside{
+  background: rgb(147, 255, 165);
+  width: 40%;
 }
 
 article{
